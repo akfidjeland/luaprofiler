@@ -222,7 +222,7 @@ static const luaL_reg prof_funcs[] = {
   { NULL, NULL }
 };
 
-int luaopen_profiler(lua_State *L) {
+int luaopen_libprofiler(lua_State *L) {
   luaL_openlib(L, "profiler", prof_funcs, 0);
   lua_pushliteral (L, "_COPYRIGHT");
   lua_pushliteral (L, "Copyright (C) 2003-2007 Kepler Project");
