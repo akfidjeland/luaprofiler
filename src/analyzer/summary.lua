@@ -1,3 +1,5 @@
+#!/usr/bin/env torch
+
 -- LuaProfiler
 -- Copyright Kepler Project 2005-2007 (http://www.keplerproject.org/luaprofiler)
 -- $Id: summary.lua,v 1.6 2009-03-16 15:55:32 alessandrohc Exp $
